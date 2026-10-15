@@ -6,10 +6,10 @@
 peso = float(input("Digite o peso em kg: "))
 altura = float(input("Digite a altura em metros: "))
 
-# Processamento: vai calcular o IMC usando peso dividido pela altura ao quadrado.
+# Processamento: calcula o IMC usando peso dividido pela altura ao quadrado.
 imc = peso / (altura * altura)
 
-# Decisão: vai comparar o resultado com as faixas do exercício.
+# Decisão: compara o resultado com as faixas do exercício.
 if imc < 18.5:
     print("Abaixo do peso")
 elif imc < 25:
@@ -19,5 +19,5 @@ elif imc < 30:
 else:
     print("Obesidade")
 
-# Saída: vai mostrar o valor calculado.
+# Saída: mostra o valor calculado.
 print("IMC:", imc)

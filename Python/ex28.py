@@ -5,7 +5,7 @@
 # Entrada: vai pegar uma letra e deixar em minúscula.
 letra = input("Digite uma letra: ").lower()
 
-# Decisão: confiro se a letra é uma das cinco vogais.
+# Decisão: confere se a letra é uma das cinco vogais.
 if letra in "aeiou":
     print("Vogal")
 else:

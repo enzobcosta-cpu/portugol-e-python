@@ -16,7 +16,7 @@ programa
         escreva("Digite o terceiro número: ")
         leia(c)
 
-   // Decisão: vai comparar as seis possibilidades de ordem.
+   // Decisão: compara as seis possibilidades de ordem.
         se (a < b e b < c)
         {
             escreva(a, " ", b, " ", c, "\n")

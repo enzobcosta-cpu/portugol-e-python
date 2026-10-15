@@ -7,7 +7,7 @@ a = float(input("Digite o primeiro número: "))
 b = float(input("Digite o segundo número: "))
 c = float(input("Digite o terceiro número: "))
 
-# Decisão: vai verificar cada uma das seis ordens possíveis.
+# Decisão: verifica cada uma das seis ordens possíveis.
 if a < b and b < c:
     print(a, b, c)
 elif a < c and c < b:

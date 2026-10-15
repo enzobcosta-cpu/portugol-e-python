@@ -7,7 +7,7 @@ numero = int(input("Digite um número: "))
 
 # Decisão: resto zero na divisão por 2 significa que o número é par.
 if numero % 2 == 0:
-    # Saída: vai mostrar que é par.
+    # Saída: mostra que é par.
     print("Par.")
 else:
     # Saída: caso contrário, é ímpar.

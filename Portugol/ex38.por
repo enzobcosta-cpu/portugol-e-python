@@ -25,7 +25,7 @@ programa
         }
         senao
         {
-       // Processamento: vai calcular o delta para descobrir quantas raízes existem.
+       // Processamento: calcula o delta para descobrir quantas raízes existem.
             delta = b * b - 4 * a * c
 
             // Decisão: delta negativo não tem raiz real; zero tem uma; positivo tem duas.

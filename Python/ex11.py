@@ -6,7 +6,7 @@
 a = float(input("Digite o primeiro número: "))
 b = float(input("Digite o segundo número: "))
 
-# Decisão: vai comparar os dois números para descobrir o maior.
+# Decisão: compara os dois números para descobrir o maior.
 if a > b:
     # Saída: o primeiro é o maior.
     print("O maior é:", a)

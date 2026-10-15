@@ -12,7 +12,7 @@ programa
         escreva("Digite o valor da compra: ")
         leia(compra)
 
-        // Decisão: escolho a porcentagem de desconto conforme o valor.
+        // Decisão: escolhe a porcentagem de desconta conforme o valor.
         se (compra < 50)
         {
             percentual = 0
@@ -30,11 +30,11 @@ programa
             percentual = 15
         }
 
-        // Processamento: vai transformar a porcentagem em valor e vai tirar do total.
+        // Processamento: transforma a porcentagem em valor e vai tirar do total.
         desconto = compra * percentual / 100
         final = compra - desconto
 
-   // Saída: vai mostrar o desconto e o valor final.
+   // Saída: mostra o desconta e o valor final.
         escreva("Desconto: R$ ", desconto, "\n")
         escreva("Valor final: R$ ", final, "\n")
     }

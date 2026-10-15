@@ -12,7 +12,7 @@ programa
         escreva("Digite sua idade: ")
         leia(idade)
 
-        // Decisão: com 18 anos ou mais, considero maior de idade.
+        // Decisão: com 18 anos ou mais, considera maior de idade.
         se (idade >= 18)
         {
             // Saída: este caminho acontece quando a idade é 18 ou mais.

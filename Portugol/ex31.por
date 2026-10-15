@@ -16,7 +16,7 @@ programa
         escreva("Digite o terceiro lado: ")
         leia(c)
 
-        // Decisão: primeiro confiro se os lados realmente podem formar um triângulo.
+        // Decisão: primeiro confere se os lados realmente podem formar um triângulo.
         se (a + b <= c ou a + c <= b ou b + c <= a)
         {
             // Saída: se uma regra falhar, não existe triângulo.

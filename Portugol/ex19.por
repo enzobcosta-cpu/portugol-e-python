@@ -14,7 +14,7 @@ programa
         escreva("Digite a segunda nota: ")
         leia(n2)
 
-   // Processamento: vai calcular a média das notas.
+   // Processamento: calcula a média das notas.
         media = (n1 + n2) / 2.0
 
         // Decisão 1: média 7 ou mais significa aprovado.
@@ -32,7 +32,7 @@ programa
             // Saída: abaixo de 5 significa reprovado.
             escreva("Reprovado.\n")
         }
-   // Saída: em todos os casos, vai mostrar a média.
+   // Saída: em todos os casos, mostra a média.
         escreva("Média: ", media, "\n")
     }
 }

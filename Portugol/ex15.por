@@ -12,10 +12,10 @@ programa
         escreva("Digite o valor da compra: ")
         leia(compra)
 
-        // Decisão: compras de R$ 100 ou mais ganham 10% de desconto.
+        // Decisão: compras de R$ 100 ou mais ganham 10% de desconta.
         se (compra >= 100)
         {
-  // Processamento: vai calcular o desconto e vai tirar do valor da compra.
+  // Processamento: calcula o desconta e vai tirar do valor da compra.
             desconto = compra * 0.10
             final = compra - desconto
         }
@@ -25,7 +25,7 @@ programa
             final = compra
         }
 
-   // Saída: vai mostrar quanto ficou para pagar.
+   // Saída: mostra quanto ficou para pagar.
         escreva("Valor final: R$ ", final, "\n")
     }
 }

@@ -6,12 +6,12 @@
 dividendo = float(input("Digite o dividendo: "))
 divisor = float(input("Digite o divisor: "))
 
-# Decisão: primeiro confiro se o divisor é zero.
+# Decisão: primeiro confere se o divisor é zero.
 if divisor == 0:
-    # Saída: aviso que não existe divisão por zero.
+    # Saída: avisa que não existe divisão por zero.
     print("Erro: não existe divisão por zero")
 else:
-    # Processamento: faço a divisão porque o divisor é válido.
+    # Processamento: faz a divisão porque o divisor é válido.
     resultado = dividendo / divisor
-    # Saída: vai mostrar o resultado.
+    # Saída: mostra o resultado.
     print("Resultado:", resultado)

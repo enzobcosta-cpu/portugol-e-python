@@ -14,18 +14,18 @@ programa
         escreva("Digite o divisor: ")
         leia(divisor)
 
-        // Decisão: primeiro confiro se o divisor é zero para evitar erro.
+        // Decisão: primeiro confere se o divisor é zero para evitar erro.
         se (divisor == 0)
         {
-            // Saída: aviso que não dá para dividir por zero.
+            // Saída: avisa que não dá para dividir por zero.
             escreva("Erro: não existe divisão por zero\n")
         }
         senao
         {
-            // Processamento: faço a divisão porque o divisor é válido.
+            // Processamento: faz a divisão porque o divisor é válido.
             real resultado
             resultado = dividendo / divisor
-       // Saída: vai mostrar o resultado da divisão.
+       // Saída: mostra o resultado da divisão.
             escreva("Resultado: ", resultado, "\n")
         }
     }

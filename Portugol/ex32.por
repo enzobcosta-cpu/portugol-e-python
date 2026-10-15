@@ -14,10 +14,10 @@ programa
         escreva("Digite a senha: ")
         leia(senha)
 
-        // Decisão 1: primeiro confiro se o usuário existe.
+        // Decisão 1: primeiro confere se o usuário existe.
         se (usuario == "aluno")
         {
-            // Decisão 2: com o usuário certo, agora confiro a senha.
+            // Decisão 2: com o usuário certo, agora confere a senha.
             se (senha == "1234")
             {
                 // Saída: usuário e senha estão corretos.

@@ -7,7 +7,7 @@ a = float(input("Digite o primeiro lado: "))
 b = float(input("Digite o segundo lado: "))
 c = float(input("Digite o terceiro lado: "))
 
-# Decisão: vai verificar primeiro se os lados podem formar um triângulo.
+# Decisão: verifica primeiro se os lados podem formar um triângulo.
 if a + b <= c or a + c <= b or b + c <= a:
     print("Esses lados não formam um triângulo.")
 elif a == b and b == c:

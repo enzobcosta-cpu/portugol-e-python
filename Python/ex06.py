@@ -7,10 +7,10 @@ preco = float(input("Digite o preço: "))
 quantidade = int(input("Digite a quantidade: "))
 pago = float(input("Digite o valor pago: "))
 
-# Processamento: vai calcular o total e depois o troco.
+# Processamento: calcula o total e depois o troco.
 total = preco * quantidade
 troco = pago - total
 
-# Saída: vai mostrar o total e o troco.
+# Saída: mostra o total e o troco.
 print("Total: R$", total)
 print("Troco: R$", troco)

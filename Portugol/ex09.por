@@ -15,7 +15,7 @@ programa
         // Decisão: se o resto da divisão por 2 for zero, o número é par.
         se (numero % 2 == 0)
         {
-       // Saída: vai mostrar o resultado para o usuário.
+       // Saída: mostra o resultado para o usuário.
             escreva("Par.\n")
         }
         senao

@@ -5,7 +5,7 @@
 # Entrada: vai pegar a idade.
 idade = int(input("Digite a idade: "))
 
-# Decisão: vai verificar a faixa de idade para saber a situação do voto.
+# Decisão: verifica a faixa de idade para saber a situação do voto.
 if idade < 16:
     print("Não pode votar")
 elif idade < 18:

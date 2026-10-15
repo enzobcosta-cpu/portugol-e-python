@@ -13,7 +13,7 @@ programa
         leia(letra)
         letra = minusculo(letra)
 
-   // Decisão: vai comparar a letra com as cinco vogais.
+   // Decisão: compara a letra com as cinco vogais.
         se (letra == "a" ou letra == "e" ou letra == "i" ou letra == "o" ou letra == "u")
         {
             // Saída: uma dessas letras é vogal.
@@ -21,7 +21,7 @@ programa
         }
         senao
         {
-            // Saída: se não for vogal, considero consoante.
+            // Saída: se não for vogal, considera consoante.
             escreva("Consoante\n")
         }
     }

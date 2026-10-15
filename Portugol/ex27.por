@@ -12,7 +12,7 @@ programa
         escreva("Digite um número: ")
         leia(numero)
 
-        // Decisão: confiro se o número está entre 1 e 100, incluindo os limites.
+        // Decisão: confere se o número está entre 1 e 100, incluindo os limites.
         se (numero >= 1 e numero <= 100)
         {
             // Saída: o número está dentro do intervalo.

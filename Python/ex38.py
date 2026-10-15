@@ -11,10 +11,10 @@ c = float(input("Digite c: "))
 if a == 0:
     print("Não é uma equação do 2º grau.")
 else:
-    # Processamento: vai calcular o delta para descobrir as raízes.
+    # Processamento: calcula o delta para descobrir as raízes.
     delta = b ** 2 - 4 * a * c
 
-    # Decisão: vai verificar se existem zero, uma ou duas raízes reais.
+    # Decisão: verifica se existem zero, uma ou duas raízes reais.
     if delta < 0:
         print("Não existem raízes reais.")
     elif delta == 0:

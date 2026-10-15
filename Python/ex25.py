@@ -6,11 +6,11 @@
 limite = float(input("Digite o limite da via: "))
 velocidade = float(input("Digite a velocidade medida: "))
 
-# Decisão: vai verificar primeiro se a velocidade está dentro do limite.
+# Decisão: verifica primeiro se a velocidade está dentro do limite.
 if velocidade <= limite:
     print("Sem infração.")
 else:
-    # Processamento: vai calcular a porcentagem que passou do limite.
+    # Processamento: calcula a porcentagem que passou do limite.
     percentual = (velocidade - limite) / limite * 100
 
     # Decisão: vai usar essa porcentagem para definir a gravidade.

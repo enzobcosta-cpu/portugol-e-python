@@ -14,7 +14,7 @@ programa
         escreva("Jogador 2, digite pedra, papel ou tesoura: ")
         leia(jogador2)
 
-        // Decisão 1: primeiro confiro se as duas jogadas são válidas.
+        // Decisão 1: primeiro confere se as duas jogadas são válidas.
         se ((jogador1 != "pedra" e jogador1 != "papel" e jogador1 != "tesoura") ou (jogador2 != "pedra" e jogador2 != "papel" e jogador2 != "tesoura"))
         {
             // Saída: pelo menos uma jogada não existe.

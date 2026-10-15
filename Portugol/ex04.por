@@ -12,11 +12,11 @@ programa
         escreva("Digite a temperatura em Celsius: ")
         leia(celsius)
 
-        // Processamento: aplico a fórmula de conversão para Fahrenheit.
+        // Processamento: aplica a fórmula de conversão para Fahrenheit.
         real fahrenheit
         fahrenheit = celsius * 1.8 + 32
 
-   // Saída: vai mostrar a temperatura convertida.
+   // Saída: mostra a temperatura convertida.
         escreva("Temperatura em Fahrenheit: ", fahrenheit, "\n")
     }
 }

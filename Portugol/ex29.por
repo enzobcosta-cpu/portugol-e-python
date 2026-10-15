@@ -16,7 +16,7 @@ programa
         escreva("Digite o terceiro número: ")
         leia(c)
 
-   // Decisão: vai comparar os três para descobrir qual é o maior.
+   // Decisão: compara os três para descobrir qual é o maior.
         se (a > b e a > c)
         {
             escreva("O maior é: ", a, "\n")

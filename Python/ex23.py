@@ -6,7 +6,7 @@
 codigo = int(input("Digite o código do produto: "))
 quantidade = int(input("Digite a quantidade: "))
 
-# Processamento: começo sem preço e escolho o valor pelo código.
+# Processamento: começa sem preço e escolhe o valor pelo código.
 preco = 0
 if codigo == 1:
     preco = 4.50
@@ -19,10 +19,10 @@ elif codigo == 4:
 elif codigo == 5:
     preco = 3.00
 else:
-    # Saída: aviso que o código não existe.
+    # Saída: avisa que o código não existe.
     print("Código inválido")
 
-# Processamento e saída: se o código deu certo, vai calcular o total.
+# Processamento e saída: se o código deu certo, calcula o total.
 if preco > 0:
     total = preco * quantidade
     print("Total: R$", total)

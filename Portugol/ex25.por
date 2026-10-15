@@ -14,7 +14,7 @@ programa
         escreva("Digite a velocidade medida: ")
         leia(velocidade)
 
-        // Decisão: vai verificar primeiro se a velocidade está dentro do limite.
+        // Decisão: verifica primeiro se a velocidade está dentro do limite.
         se (velocidade <= limite)
         {
             // Saída: não houve infração.
@@ -22,10 +22,10 @@ programa
         }
         senao
         {
-       // Processamento: vai calcular quanto a velocidade passou do limite em porcentagem.
+       // Processamento: calcula quanto a velocidade passou do limite em porcentagem.
             percentual = (velocidade - limite) / limite * 100
 
-            // Decisão: agora classifico a gravidade da infração.
+            // Decisão: agora classifica a gravidade da infração.
             se (percentual <= 20)
             {
                 escreva("Infração média\n")

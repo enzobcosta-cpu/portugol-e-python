@@ -7,7 +7,7 @@ a = float(input("Digite o primeiro número: "))
 b = float(input("Digite o segundo número: "))
 c = float(input("Digite o terceiro número: "))
 
-# Decisão: vai comparar os três para descobrir o maior.
+# Decisão: compara os três para descobrir o maior.
 if a > b and a > c:
     print("O maior é:", a)
 elif b > a and b > c:

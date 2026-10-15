@@ -16,10 +16,10 @@ programa
         escreva("Digite a frequência em %: ")
         leia(frequencia)
 
-   // Processamento: vai calcular a média das duas notas.
+   // Processamento: calcula a média das duas notas.
         media = (n1 + n2) / 2.0
 
-        // Decisão 1: antes da nota, confiro se faltou demais.
+        // Decisão 1: antes da nota, confere se faltou demais.
         se (frequencia < 75)
         {
             // Saída: pouca frequência já reprova o aluno.

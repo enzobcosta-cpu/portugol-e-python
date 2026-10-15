@@ -12,13 +12,13 @@ programa
         escreva("Digite a velocidade: ")
         leia(velocidade)
 
-   // Decisão: vai comparar a velocidade com o limite de 80 km/h.
+   // Decisão: compara a velocidade com o limite de 80 km/h.
         se (velocidade > 80)
         {
-            // Processamento: descubro quantos km/h passaram do limite.
+            // Processamento: descobre quantos km/h passaram do limite.
             real excesso
             excesso = velocidade - 80
-       // Saída: vai mostrar quanto passou do limite.
+       // Saída: mostra quanto passou do limite.
             escreva("Você passou ", excesso, " km/h do limite.\n")
         }
         senao

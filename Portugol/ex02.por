@@ -14,13 +14,13 @@ programa
         escreva("Digite o segundo número: ")
         leia(b)
 
-        // Processamento: aqui faço as três contas pedidas.
+        // Processamento: aqui faz as três contas pedidas.
         inteiro soma, subtracao, multiplicacao
         soma = a + b
         subtracao = a - b
         multiplicacao = a * b
 
-        /// Saída: vai mostrar os resultados.
+        /// Saída: mostra os resultados.
         escreva("Soma: ", soma, "\n")
         escreva("Subtração: ", subtracao, "\n")
         escreva("Multiplicação: ", multiplicacao, "\n")

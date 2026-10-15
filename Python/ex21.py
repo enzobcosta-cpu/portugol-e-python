@@ -5,7 +5,7 @@
 # Entrada: vai pegar a idade.
 idade = int(input("Digite a idade: "))
 
-# Decisão: vai verificar em qual faixa a idade se encaixa.
+# Decisão: verifica em qual faixa a idade se encaixa.
 if idade < 0:
     print("Idade inválida.")
 elif idade <= 12:

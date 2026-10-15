@@ -12,13 +12,13 @@ programa
         escreva("Digite um número: ")
         leia(numero)
 
-        // Decisão 1: vai verificar primeiro se o número é maior que zero.
+        // Decisão 1: verifica primeiro se o número é maior que zero.
         se (numero > 0)
         {
             // Saída: este caso é positivo.
             escreva("Positivo.\n")
         }
-        // Decisão 2: se não é positivo, vai verificar se é menor que zero.
+        // Decisão 2: se não é positivo, verifica se é menor que zero.
         senao se (numero < 0)
         {
             // Saída: este caso é negativo.

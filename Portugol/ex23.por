@@ -14,7 +14,7 @@ programa
         escreva("Digite a quantidade: ")
         leia(quantidade)
 
-        // Processamento: começo o total em zero e depois escolho o preço.
+        // Processamento: começa o total em zero e depois escolhe o preço.
         real preco, total
         preco = 0
 
@@ -41,16 +41,16 @@ programa
         }
         senao
         {
-            // Saída: aviso que o código não existe.
+            // Saída: avisa que o código não existe.
             escreva("Código inválido\n")
         }
 
-   // Decisão: só vai calcular o total se o código foi válido.
+   // Decisão: só calcula o total se o código foi válido.
         se (preco > 0)
         {
-            // Processamento: multiplico o preço pela quantidade.
+            // Processamento: multiplica o preço pela quantidade.
             total = preco * quantidade
-       // Saída: vai mostrar quanto a compra custa.
+       // Saída: mostra quanto a compra custa.
             escreva("Total: R$ ", total, "\n")
         }
     }

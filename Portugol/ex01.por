@@ -12,7 +12,7 @@ programa
         escreva("Digite seu nome: ")
         leia(nome)
 
-        // Saída: vai mostrar uma mensagem de boas-vindas.
+        // Saída: mostra uma mensagem de boas-vindas.
         escreva("Olá, ", nome, "! Bem-vindo(a) ao curso de Desenvolvimento de Sistemas.\n")
     }
 }

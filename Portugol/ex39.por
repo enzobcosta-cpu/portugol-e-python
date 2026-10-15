@@ -15,12 +15,12 @@ programa
         // Decisão: o saque precisa ser positivo e múltiplo de 10.
         se (saque <= 0 ou saque % 10 != 0)
         {
-            // Saída: aviso que o valor não pode ser sacado.
+            // Saída: avisa que o valor não pode ser sacado.
             escreva("Saque inválido\n")
         }
         senao
         {
-            // Processamento: começo pelas notas maiores para usar a menor quantidade possível.
+            // Processamento: começa pelas notas maiores para usar a menor quantidade possível.
             inteiro n100, n50, n20, n10, resto
             n100 = saque / 100
             resto = saque % 100
@@ -30,7 +30,7 @@ programa
             resto = resto % 20
             n10 = resto / 10
 
-       // Saída: vai mostrar somente as notas que serão usadas.
+       // Saída: mostra somente as notas que serão usadas.
             se (n100 > 0)
             {
                 escreva("Notas de R$ 100: ", n100, "\n")

@@ -14,10 +14,10 @@ programa
         escreva("Digite a altura em metros: ")
         leia(altura)
 
-   // Processamento: vai calcular o IMC dividindo o peso pela altura ao quadrado.
+   // Processamento: calcula o IMC dividindo o peso pela altura ao quadrado.
         imc = peso / (altura * altura)
 
-   // Decisão: vai comparar o IMC com as faixas pedidas.
+   // Decisão: compara o IMC com as faixas pedidas.
         se (imc < 18.5)
         {
             escreva("Abaixo do peso\n")
@@ -35,7 +35,7 @@ programa
             escreva("Obesidade\n")
         }
 
-   // Saída: vai mostrar o valor do IMC para a pessoa conferir.
+   // Saída: mostra o valor do IMC para a pessoa conferir.
         escreva("IMC: ", imc, "\n")
     }
 }

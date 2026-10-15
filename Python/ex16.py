@@ -8,10 +8,10 @@ saque = float(input("Digite o valor do saque: "))
 
 # Decisão: só posso sacar se houver saldo suficiente.
 if saque <= saldo:
-    # Processamento: desconto o saque do saldo.
+    # Processamento: desconta o saque do saldo.
     saldo = saldo - saque
-    # Saída: vai mostrar o novo saldo.
+    # Saída: mostra o novo saldo.
     print("Novo saldo: R$", saldo)
 else:
-    # Saída: aviso que o saldo não é suficiente.
+    # Saída: avisa que o saldo não é suficiente.
     print("Saldo insuficiente")

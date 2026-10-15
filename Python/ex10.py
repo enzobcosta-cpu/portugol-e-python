@@ -6,12 +6,12 @@
 n1 = float(input("Digite a primeira nota: "))
 n2 = float(input("Digite a segunda nota: "))
 
-# Processamento: vai calcular a média das duas notas.
+# Processamento: calcula a média das duas notas.
 media = (n1 + n2) / 2
 
 # Decisão: média 7 ou mais significa aprovação.
 if media >= 7.0:
-    # Saída: vai mostrar que o aluno foi aprovado.
+    # Saída: mostra que o aluno foi aprovado.
     print("Aprovado. Média:", media)
 else:
     # Saída: abaixo de 7 significa reprovação.

@@ -12,7 +12,7 @@ programa
         escreva("Digite a idade: ")
         leia(idade)
 
-   // Decisão: vai verificar em qual faixa a idade se encaixa.
+   // Decisão: verifica em qual faixa a idade se encaixa.
         se (idade < 0)
         {
             escreva("Idade inválida.\n")

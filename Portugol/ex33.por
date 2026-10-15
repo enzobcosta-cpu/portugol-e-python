@@ -12,7 +12,7 @@ programa
         escreva("Digite a idade: ")
         leia(idade)
 
-   // Decisão: vai verificar a idade e digo como fica o voto.
+   // Decisão: verifica a idade e digo como fica o voto.
         se (idade < 16)
         {
             escreva("Não pode votar\n")

@@ -17,12 +17,12 @@ programa
         escreva("Digite o valor pago: ")
         leia(pago)
 
-   // Processamento: primeiro vai calcular quanto a compra custa no total.
+   // Processamento: primeiro calcula quanto a compra custa no total.
         total = preco * quantidade
-        // Processamento: depois vai verificar quanto deve voltar de troco.
+        // Processamento: depois verifica quanto deve voltar de troco.
         troco = pago - total
 
-   // Saída: vai mostrar o total e o troco.
+   // Saída: mostra o total e o troco.
         escreva("Total: R$ ", total, "\n")
         escreva("Troco: R$ ", troco, "\n")
     }

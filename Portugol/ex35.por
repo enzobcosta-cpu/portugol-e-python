@@ -17,7 +17,7 @@ programa
         escreva("Digite a operação (+, -, * ou /): ")
         leia(operador)
 
-        // Decisão: escolho a conta de acordo com o operador.
+        // Decisão: escolhe a conta de acordo com o operador.
         se (operador == "+")
         {
             resultado = a + b
@@ -35,7 +35,7 @@ programa
         }
         senao se (operador == "/")
         {
-            // Decisão: antes de dividir, confiro se o segundo número é zero.
+            // Decisão: antes de dividir, confere se o segundo número é zero.
             se (b == 0)
             {
                 escreva("Erro: não existe divisão por zero\n")

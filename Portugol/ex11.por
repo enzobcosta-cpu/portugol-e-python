@@ -14,7 +14,7 @@ programa
         escreva("Digite o segundo número: ")
         leia(b)
 
-   // Decisão: vai comparar os dois números para descobrir o maior.
+   // Decisão: compara os dois números para descobrir o maior.
         se (a > b)
         {
             // Saída: o primeiro número é maior.

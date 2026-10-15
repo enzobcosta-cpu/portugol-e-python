@@ -12,7 +12,7 @@ programa
         escreva("Digite a temperatura: ")
         leia(temperatura)
 
-   // Decisão: vai comparar a temperatura com as faixas do exercício.
+   // Decisão: compara a temperatura com as faixas do exercício.
         se (temperatura < 0)
         {
             escreva("Abaixo de zero — risco de geada!\n")

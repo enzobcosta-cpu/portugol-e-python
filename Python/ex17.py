@@ -5,11 +5,11 @@
 # Entrada: vai pegar um número inteiro.
 numero = int(input("Digite um número: "))
 
-# Decisão 1: vai verificar primeiro se é maior que zero.
+# Decisão 1: verifica primeiro se é maior que zero.
 if numero > 0:
     # Saída: número positivo.
     print("Positivo.")
-# Decisão 2: se não, vai verificar se é menor que zero.
+# Decisão 2: se não, verifica se é menor que zero.
 elif numero < 0:
     # Saída: número negativo.
     print("Negativo.")

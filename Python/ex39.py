@@ -9,7 +9,7 @@ saque = int(input("Digite o valor do saque: "))
 if saque <= 0 or saque % 10 != 0:
     print("Saque inválido")
 else:
-    # Processamento: começo pelas notas maiores para usar menos notas.
+    # Processamento: começa pelas notas maiores para usar menos notas.
     n100 = saque // 100
     resto = saque % 100
     n50 = resto // 50
@@ -18,7 +18,7 @@ else:
     resto %= 20
     n10 = resto // 10
 
-    # Saída: vai mostrar apenas as notas que realmente serão usadas.
+    # Saída: mostra apenas as notas que realmente serão usadas.
     if n100 > 0:
         print("Notas de R$ 100:", n100)
     if n50 > 0:

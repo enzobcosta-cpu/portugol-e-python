@@ -19,12 +19,12 @@ programa
         {
        // Processamento: vai tirar o valor sacado do saldo atual.
             saldo = saldo - saque
-       // Saída: vai mostrar quanto sobrou.
+       // Saída: mostra quanto sobrou.
             escreva("Novo saldo: R$ ", saldo, "\n")
         }
         senao
         {
-            // Saída: aviso que não há dinheiro suficiente.
+            // Saída: avisa que não há dinheiro suficiente.
             escreva("Saldo insuficiente\n")
         }
     }

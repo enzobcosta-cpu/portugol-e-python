@@ -5,7 +5,7 @@
 # Entrada: vai pegar um número.
 numero = int(input("Digite um número: "))
 
-# Decisão: confiro se ele está entre 1 e 100.
+# Decisão: confere se ele está entre 1 e 100.
 if 1 <= numero <= 100:
     print("Dentro do intervalo")
 else:

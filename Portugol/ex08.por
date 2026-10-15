@@ -15,7 +15,7 @@ programa
         // Decisão: zero também entra como positivo neste exercício.
         se (numero >= 0)
         {
-       // Saída: vai mostrar que o número é positivo.
+       // Saída: mostra que o número é positivo.
             escreva("Positivo.\n")
         }
         senao

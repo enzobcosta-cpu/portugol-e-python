@@ -7,7 +7,7 @@ n1 = float(input("Digite a primeira nota: "))
 n2 = float(input("Digite a segunda nota: "))
 frequencia = float(input("Digite a frequência em %: "))
 
-# Processamento: vai calcular a média.
+# Processamento: calcula a média.
 media = (n1 + n2) / 2
 
 # Decisão 1: frequência abaixo de 75% reprova por falta.

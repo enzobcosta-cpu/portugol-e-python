@@ -5,7 +5,7 @@
 # Entrada: vai pegar a temperatura.
 temperatura = float(input("Digite a temperatura: "))
 
-# Decisão: vai comparar a temperatura com cada faixa.
+# Decisão: compara a temperatura com cada faixa.
 if temperatura < 0:
     print("Abaixo de zero — risco de geada!")
 elif temperatura < 10:

@@ -16,7 +16,7 @@ programa
         escreva("É estudante? (s/n): ")
         leia(estudante)
 
-        // Decisão: primeiro descubro qual tipo de ingresso a pessoa tem direito.
+        // Decisão: primeiro descobre qual tipo de ingresso a pessoa tem direito.
         se (idade < 6)
         {
             tipo = "Gratuito"
@@ -33,7 +33,7 @@ programa
             valor = 40
         }
 
-        // Decisão: se for gratuito, não preciso perguntar o pagamento.
+        // Decisão: se for gratuito, não precisa perguntar o pagamento.
         se (valor == 0)
         {
             escreva("Gratuito — R$ 0.0\n")
@@ -48,7 +48,7 @@ programa
             se (pagamento == 1)
             {
                 forma = "PIX"
-                // Processamento: no PIX dou 5% de desconto.
+                // Processamento: no PIX dou 5% de desconta.
                 valor = valor * 0.95
             }
             senao se (pagamento == 2)
@@ -67,7 +67,7 @@ programa
                 escreva("Forma de pagamento inválida\n")
             }
 
-       // Saída: vai mostrar o resumo quando o pagamento foi válido.
+       // Saída: mostra o resumo quando o pagamento foi válido.
             se (pagamento >= 1 e pagamento <= 3)
             {
                 escreva(tipo, " — ", forma, " — R$ ", valor, "\n")

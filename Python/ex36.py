@@ -6,7 +6,7 @@
 jogador1 = input("Jogador 1, digite pedra, papel ou tesoura: ")
 jogador2 = input("Jogador 2, digite pedra, papel ou tesoura: ")
 
-# Decisão 1: primeiro confiro se as duas jogadas são válidas.
+# Decisão 1: primeiro confere se as duas jogadas são válidas.
 validas = ["pedra", "papel", "tesoura"]
 if jogador1 not in validas or jogador2 not in validas:
     print("Jogada inválida")
