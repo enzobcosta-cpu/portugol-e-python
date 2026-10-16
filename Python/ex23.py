@@ -1,12 +1,19 @@
+
 # Exercício 23 — Cardápio da cantina
 # Aluno: Enzo Bernardo
 # Objetivo: calcular o total da compra a partir do código e da quantidade.
+print("1 - Cachorro Quente - R$ 4,50   ")
+print("2 - Bauru Simples - R$ 6,00   ")
+print("3 - Bauru com Ovo - R$ 7,00   ")
+print("4 - Hambúrguer - R$ 5,00   ")
+print("5 - Refrigerante - R$ 3,00   ")
 
 # Entrada: vai pegar o código do produto e a quantidade.
 codigo = int(input("Digite o código do produto: "))
 quantidade = int(input("Digite a quantidade: "))
 
 # Processamento: começa sem preço e escolhe o valor pelo código.
+
 preco = 0
 if codigo == 1:
     preco = 4.50
